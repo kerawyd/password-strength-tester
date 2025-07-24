@@ -1,11 +1,12 @@
 import streamlit as st
 import re 
 
-st.title("Password Strength Tester")
+st.markdown('<h1 class="title">🔐 Password Strength Tester by Kaylhan Garcia</h1>', unsafe_allow_html=True)
 st.write("Empowering users with ethical, secure password practices.")
 
+st.info("Your privacy matters. We don’t store or share anything you type here.")
+
 def evaluate_password(password):
-    pass
 
     score = 0
     suggestions = []
@@ -40,9 +41,27 @@ def evaluate_password(password):
 password = st.text_input("Enter your password", type="password")
 
 if password:
+    if password.lower().strip() == "cyberwithkay":
+        st.write("🎉 Easter Egg Unlocked! Check out my blog ➜ https://cyber-with-kay.super.site/")
+    
     strength, feedback = evaluate_password(password)
-    st.markdown(f"**Strength:** {strength}")
+
+    strength_colors = {
+        "Very Poor": "red",
+        "Poor": "orange",
+        "Moderate": "gold",
+        "Strong": "lightgreen",
+        "Very Strong": "green"
+    }
+    color = strength_colors.get(strength, "white")
+
+    st.markdown(f"<h3 style='color:{color}; font-weight:bold;'>Strength: {strength}</h3>", unsafe_allow_html=True)
+
+    if strength == "Very Strong":
+        st.balloons()
+        st.write("WOW... I am in tears... This is such a strong password. ")
+
     if feedback:
-        st.markdown("**Suggestions:**")
+        st.markdown("### Suggestions to Improve:")
         for item in feedback:
             st.markdown(f"- {item}")
