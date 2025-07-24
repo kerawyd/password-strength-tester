@@ -1,4 +1,4 @@
-# 🔐 Password Strength Tester by Kaylhan Garcia
+# 🔐 [Password Strength Tester by Kaylhan Garcia](http://localhost:8501/#password-strength-tester)
 
 **Empowering users with secure, ethical password practices.**  
 ---
@@ -33,7 +33,7 @@ This Streamlit app evaluates password strength based on:
 - 📝 Real-time feedback and improvement suggestions
 - 🎈 Celebratory balloons for very strong passwords
 
-And a special hidden Easter egg if you type in a **cyberwithkay** 😉 
+And a special hidden Easter egg if you type in **cyberwithkay** 😉 
 
 ---
 
