@@ -1,6 +1,11 @@
 # 🔐 [Password Strength Tester by Kaylhan Garcia](http://localhost:8501/#password-strength-tester)
 
 **Empowering users with secure, ethical password practices.**  
+
+**WATCH DEMONSTRATION HERE**
+
+https://github.com/user-attachments/assets/9323d87b-e98b-4b6e-81cd-c98ae8890047
+
 ---
 
 ## 🧠 Why I Built This
