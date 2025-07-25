@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/9323d87b-e98b-4b6e-81cd-c98ae8890047
 
 ---
 
-## 🧠 Why I Built This
+## Why I Built This
 
 I'm currently beginning my **Master’s in Cybersecurity**, building on a background in **data science** and a passion for **ethical tech**. I wanted my first public-facing cyber project to reflect the skills I’m growing and the values I hold: transparency, playfulness, and inclusion.
 
@@ -20,7 +20,7 @@ In future projects, I look forward to exploring frontend development more deeply
 
 ---
 
-## 🚨 Why It Matters
+## Why It Matters
 
 With the **increase in password leaks, guessable credentials, and digital breaches**, strong passwords are more critical than ever.  
 This project isn’t just functional. It’s a conversation starter about how **cyber hygiene protects our communities and our identities**.
@@ -29,14 +29,14 @@ Inside the app, I include reminders that your password is key to protecting your
 
 ---
 
-## 🚀 What It Does
+## What It Does
 
 This Streamlit app evaluates password strength based on:
-- ✅ Length (recommended minimum: 13 characters)
-- 🧠 Complexity (uppercase, lowercase, digits, special characters)
-- ⚠️ Common patterns and weaknesses (e.g. `123456`, `password`, `qwerty`)
-- 📝 Real-time feedback and improvement suggestions
-- 🎈 Celebratory balloons for very strong passwords
+- Length (recommended minimum: 13 characters)
+- Complexity (uppercase, lowercase, digits, special characters)
+- Common patterns and weaknesses (e.g. `123456`, `password`, `qwerty`)
+- Real-time feedback and improvement suggestions
+- Celebratory balloons for very strong passwords
 
 And a special hidden Easter egg if you type in **cyberwithkay** 😉 
 
